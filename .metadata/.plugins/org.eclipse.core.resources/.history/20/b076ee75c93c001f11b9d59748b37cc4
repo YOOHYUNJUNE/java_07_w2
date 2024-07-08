@@ -1,0 +1,15 @@
+package com.practice01;
+
+class E {
+
+}
+
+class B {
+	
+}
+
+class C {
+	class D {
+		
+	}
+}

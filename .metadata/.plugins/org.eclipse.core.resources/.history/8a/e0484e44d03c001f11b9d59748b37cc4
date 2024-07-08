@@ -1,0 +1,10 @@
+package com.practice04;
+
+public class VariableExchange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

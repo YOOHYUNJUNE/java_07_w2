@@ -1,0 +1,13 @@
+package com.practice06;
+
+public class ParseExample {
+
+	// valueOf : 기본 타입을 문자열로 변경
+	public static void main(String[] args) {
+		String str2 = String.valueOf(3.14);
+		System.out.println(str2 + 0.1);
+		
+	
+	}
+
+}

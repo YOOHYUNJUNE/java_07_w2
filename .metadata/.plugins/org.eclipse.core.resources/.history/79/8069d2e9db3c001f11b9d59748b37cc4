@@ -1,0 +1,12 @@
+package com.practice06;
+
+public class PromotionExample2 {
+
+	public static void main(String[] args) {
+		int x = 1;
+		int y = 2;
+		double result = x / y;
+
+	}
+
+}

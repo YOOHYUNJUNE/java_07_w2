@@ -1,0 +1,12 @@
+package com.practice06;
+
+public class CastingExample {
+
+	public static void main(String[] args) {
+		int intValue = 10;
+		byte bytValue = (byte) intValue;
+		System.out.println(byteValue);
+
+	}
+
+}

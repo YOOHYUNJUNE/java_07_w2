@@ -1,0 +1,8 @@
+package com.practice07;
+
+public class AverageExample {
+	public static void main(String[] args) {
+		// 3명의 수학점수를 입력 받기
+		
+	}
+}
