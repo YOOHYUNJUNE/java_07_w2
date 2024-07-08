@@ -11,10 +11,10 @@ public class OperatorExample6 {
 		
 		// 90점 초과면 수, 80점 초과면 우, 70점 초과면 미, 60점 초과면 양, 그외 가 
 		char grade = (score > 90) ? '수'
-				: (score > 80) ? '우'
-				: (score > 70) ? '미'
-				: (score > 60) ? '양'
-				: '가';
+			: (score > 80) ? '우'
+			: (score > 70) ? '미'
+			: (score > 60) ? '양'
+			: '가';
 		System.out.println(score + "점은 " + grade + "입니다.");			
 		
 			
