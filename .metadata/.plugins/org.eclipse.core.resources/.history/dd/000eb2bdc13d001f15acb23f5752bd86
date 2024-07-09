@@ -1,0 +1,25 @@
+package com.test;
+
+public class test01 {
+	public static void main(String[] args) {
+		int score; // 변수 선언
+		score = 95;
+		score = 90; // 변수 할당, 값 변경
+//		System.out.println(score + " 타입 : " + ((Object)score).getClass().getName());
+		int myScore = 100; // 변수 선언 + 초기화
+		int age, height, weight; // 동시 선언
+		
+		char var1 = 'A';
+		char var2 = '가';
+		char var3 = 65;
+		System.out.println(var1 + " 의 타입 : " + ((Object)var1).getClass().getName());
+		System.out.println(var2 + " 의 타입 : " + ((Object)var2).getClass().getName());
+		System.out.println(var3 + " 의 타입 : " + ((Object)var3).getClass().getName());
+		
+		int var4 = 10;
+		long var5 = 20L;
+		System.out.println(var4 + " 의 타입 : " + ((Object)var4).getClass().getName());
+		System.out.println(var5 + " 의 타입 : " + ((Object)var5).getClass().getName());
+		
+	}
+}
