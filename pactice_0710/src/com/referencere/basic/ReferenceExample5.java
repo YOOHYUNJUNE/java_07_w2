@@ -25,7 +25,7 @@ public class ReferenceExample5 {
 		if (name1.equals(name4)) {
 			System.out.println("name1과 name4는 문자열이 같음");
 		}
-		
+				
 		
 		
 	}
