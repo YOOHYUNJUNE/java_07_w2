@@ -7,7 +7,7 @@ public class Example5 {
 		byte c = (byte) (a + b);
 		char ch = 'A';
 		
-		ch = (char) (ch + 2);
+		ch = (char) (ch + (b/a));
 		float f = (float) c / b;
 		float f2 = 0.1f;
 		double d = 0.1;
