@@ -20,16 +20,22 @@ public class StringPractice2 {
 				int gender = Integer.parseInt(num.substring(7,8));
 				// char gender = num.charAt(7);
 				
-				int year = Integer.parseInt(num.substring(0,2));
 				
 				System.out.println("주민번호 : " + num);
 				
+				// 나이 계산
+				int year = Integer.parseInt(num.substring(0,2));
+				int birthYear;
 				if(year <= 24) {
-					System.out.println(2024 - year + "년생");
+					birthYear = 2000 + year;
 				} else {
-					System.out.println(1900 + year + "년생");
+					birthYear = 1900 + year;
 				}
+				int age = 2024 - birthYear;
+				System.out.println(age + "세");
+//				String resultYear = Integer.parseInt(year) <= 24 ? "20" + year : "19" + year;
 				
+				// 태어난 개월
 				if(month >= 3 && month <= 5) {
 					System.out.println("[봄]에 태어남");
 				} else if (month >= 6 && month <= 8) {
@@ -43,7 +49,22 @@ public class StringPractice2 {
 					continue;
 				}
 				
+				// switch문 변경
+				String resultWeather = switch (month) {
+					case 3, 4, 5 -> "봄";
+					case 6, 7, 8 -> "여름";
+					case 9, 10, 11 -> "가을";
+					case 12, 1, 2 -> "겨울";
+					default -> "에러";
+				};
+				
+				
+				
 				// gender % 2 == 0 ? "여자" : "남자"
+				
+//				char gender = num.charAt(7);
+//				String resultYear = gender <= '3' ? "20" + year : "19" + year;
+				
 				if(gender == 1) {
 					System.out.println("남자");
 				} else if (gender == 2) {
