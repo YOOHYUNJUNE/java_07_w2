@@ -16,8 +16,7 @@ public class Account {
 	
 	// 지급할 이자
 	double calculateInterest() {
-		double result = balance * interestRate/100;
-		return result;
+		return balance * interestRate/100;
 	} 
 	
 	
