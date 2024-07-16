@@ -7,6 +7,12 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.enumeration.week"/>
     <fullyQualifiedTypeName name="com.enumeration.Week"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.hankook.Tire"/>
+    <fullyQualifiedTypeName name="com.kumho.Tire"/>
+    <fullyQualifiedTypeName name="a.ClassName"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="com.opp.inheritance3.Calculator"/>
+    <fullyQualifiedTypeName name="com.oop.practice5.library.book.Book"/>
+    <fullyQualifiedTypeName name="com.oop.practice5.library.book.EBook"/>
 </qualifiedTypeNameHistroy>

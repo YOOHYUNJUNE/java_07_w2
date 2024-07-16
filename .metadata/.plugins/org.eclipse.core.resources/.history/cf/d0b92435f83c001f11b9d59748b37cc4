@@ -1,8 +1,0 @@
-package com.practice08;
-
-public class ExceptionExample {
-	public static void main(String[] args) {
-		int exception = 5 / 0;
-		System.out.println(exception);
-	}
-}

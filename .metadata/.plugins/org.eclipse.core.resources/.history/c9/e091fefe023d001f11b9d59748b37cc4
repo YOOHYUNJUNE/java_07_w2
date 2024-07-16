@@ -1,9 +1,0 @@
-package com.practice;
-
-public class Example2 {
-	public static void main(String[] args) {
-		int num = 456;
-		int result = ;
-		System.out.println(result); // 400
-	}
-}
